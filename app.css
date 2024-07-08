@@ -1,0 +1,193 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f5f0;
+    padding-top: 56px; /* Adjust based on navbar height */
+  }
+  
+  /* Typography */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #5c3b22;
+  }
+  img {
+    border-radius: 10px;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #8b5e3c;
+  }
+  
+  /* Color Scheme */
+  
+  :root {
+    --primary-color: #5c3b22;
+    --secondary-color: #a67b5b;
+    --background-color: #f8f5f0;
+  }
+  
+  /* Layout and Spacing */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .content {
+    margin-top: 50px;
+    padding: 2rem 0;
+  }
+  
+  /* Imagery */
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  /* Navbar */
+  
+/* Navbar */
+
+#navbar {
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  #navbar .nav-link {
+    color: var(--primary-color);
+    margin-right: 1rem;
+    transition: color 0.2s;
+  }
+  
+  #navbar .nav-link:hover {
+    color: var(--secondary-color);
+  }
+  
+  #navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .navbar.scrolled {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Content Sections */
+  
+  .content {
+    margin-top: 50px;
+    padding: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blurb {
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blurb h2 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+  }
+  
+  .blurb p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #8b5e3c;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 1200px) {
+    #title-head h1 {
+      font-size: 2.5rem;
+    }
+  
+    #title-head p {
+      font-size: 1rem;
+    }
+  
+    #navbar {
+      font-size: 0.875rem;
+    }
+  
+    .content {
+      margin-top: 30px;
+      padding: 1rem 0;
+    }
+  
+    .blurb {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #title-head h1 {
+      font-size: 2rem;
+    }
+  
+    #title-head p {
+      font-size: 0.875rem;
+    }
+  
+    #navbar {
+      font-size: 0.75rem;
+    }
+  
+    .content {
+      margin-top: 20px;
+      padding: 0.5rem 0;
+    }
+  
+    .blurb {
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #title-head h1 {
+      font-size: 1.5rem;
+    }
+  
+    #title-head p {
+      font-size: 0.75rem;
+    }
+  
+    #navbar {
+      font-size: 0.625rem;
+    }
+  
+    .content {
+      margin-top: 10px;
+      padding: 0.25rem 0;
+    }
+  
+    .blurb {
+      padding: 0.25rem;
+    }
+  }
